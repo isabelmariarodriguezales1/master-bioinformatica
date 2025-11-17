@@ -1,0 +1,543 @@
+anoctamin 4 
+high mobility group AT-hook 2 
+ubiquitin-conjugating enzyme E2 variant 2 
+carnitine O-octanoyltransferase 
+cyclin Y-like 1 
+engrailed homeobox 2 
+Niemann-Pick disease, type C1 
+regulator of calcineurin 1 
+sirtuin 6 
+tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, eta polypeptide 
+CUB and Sushi multiple domains 1 
+solute carrier family 25 (mitochondrial carrier; phosphate carrier), member 25 
+glucocorticoid induced transcript 1 
+Cell growth-inhibiting protein 7; HCG1784586; Uncharacterized protein  
+ankyrin repeat domain 44 
+pim-1 oncogene 
+neurexin 1 
+snail family zinc finger 2 
+RAR-related orphan receptor A 
+Putative mitochondrial carrier protein LOC494141  
+BEN domain containing 6 
+zinc finger protein 281 
+lactate dehydrogenase A 
+zinc finger protein 804B 
+ankyrin and armadillo repeat containing 
+hydroxyacyl-CoA dehydrogenase/3-ketoacyl-CoA thiolase/enoyl-CoA hydratase (trifunctional protein), beta subunit 
+KIAA0087 
+DEP domain containing MTOR-interacting protein 
+solute carrier family 17 (vesicular glutamate transporter), member 6 
+ATP-binding cassette, sub-family A (ABC1), member 1 
+splicing regulatory glutamine/lysine-rich protein 1 
+growth arrest-specific 1 
+spastin 
+transmembrane 9 superfamily member 3 
+eukaryotic translation initiation factor 5A2 
+family with sequence similarity 222, member B 
+cyclin-dependent kinase 6 
+glutamate receptor, ionotropic, kainate 2 
+carnitine palmitoyltransferase 1A (liver) 
+N-ethylmaleimide-sensitive factor 
+RGM domain family, member A 
+integrin, beta-like 1 (with EGF-like repeat domains) 
+matrix metallopeptidase 16 (membrane-inserted) 
+amyloid beta precursor protein (cytoplasmic tail) binding protein 2 
+BTB and CNC homology 1, basic leucine zipper transcription factor 1 
+transmembrane protein 59 
+KIAA2026 
+cleavage and polyadenylation specific factor 2, 100kDa 
+zinc finger CCCH-type containing 12C 
+phospholamban 
+mitogen-activated protein kinase 8 
+abhydrolase domain containing 2 
+transmembrane protein 86A 
+pim-3 oncogene 
+ring finger protein 128, E3 ubiquitin protein ligase 
+anoctamin 8 
+mitogen-activated protein kinase kinase kinase 7 
+RAP2A, member of RAS oncogene family 
+establishment of sister chromatid cohesion N-acetyltransferase 1 
+eukaryotic translation elongation factor 1 alpha 1 
+estrogen receptor binding site associated, antigen, 9 
+DCN1, defective in cullin neddylation 1, domain containing 5 
+unc-79 homolog (C. elegans) 
+Selenoprotein T  
+G protein-coupled receptor 88 
+sal-like 1 (Drosophila) 
+cytotoxic and regulatory T cell molecule 
+multiple coagulation factor deficiency 2 
+tetratricopeptide repeat domain 28 
+DEAD (Asp-Glu-Ala-Asp) box helicase 5 
+EGF-like, fibronectin type III and laminin G domains 
+SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 5 
+N(alpha)-acetyltransferase 15, NatA auxiliary subunit 
+ring finger protein 115 
+NIPA-like domain containing 4 
+SH3-domain GRB2-like (endophilin) interacting protein 1 
+transmembrane emp24 protein transport domain containing 5 
+Meis homeobox 2 
+Uncharacterized protein  
+THAP domain containing, apoptosis associated protein 1 
+SATB homeobox 2 
+Ras association (RalGDS/AF-6) domain family (N-terminal) member 8 
+UNC homeobox 
+sorting nexin 9 
+spermatid perinuclear RNA binding protein 
+SET domain containing 9 
+calcium channel, voltage-dependent, L type, alpha 1C subunit 
+methyltransferase like 9 
+calcium/calmodulin-dependent protein kinase II inhibitor 1 
+isochorismatase domain containing 2 
+ST3 beta-galactoside alpha-2,3-sialyltransferase 2 
+calcium/calmodulin-dependent protein kinase IV 
+nescient helix loop helix 2 
+ATPase, aminophospholipid transporter, class I, type 8B, member 1 
+SEC24 family, member C (S. cerevisiae) 
+CUGBP, Elav-like family member 2 
+nuclear transport factor 2 
+STT3B, subunit of the oligosaccharyltransferase complex (catalytic) 
+ATP-binding cassette, sub-family B (MDR/TAP), member 5 
+high mobility group nucleosome binding domain 1 
+phosphodiesterase 7A 
+glutamate receptor, metabotropic 8 
+shisa family member 5 
+cyclin Y 
+EPH receptor A8 
+chromosome 8 open reading frame 86 
+RAS and EF-hand domain containing 
+hyaluronan synthase 3 
+LUC7-like 3 (S. cerevisiae) 
+sema domain, immunoglobulin domain (Ig), short basic domain, secreted, (semaphorin) 3A 
+RNA binding motif protein 33 
+cell cycle exit and neuronal differentiation 1 
+required for meiotic nuclear division 5 homolog A (S. cerevisiae) 
+DnaJ (Hsp40) homolog, subfamily B, member 5 
+homeobox D10 
+G protein-coupled receptor 135 
+bone morphogenetic protein 3 
+twist basic helix-loop-helix transcription factor 1 
+G protein-coupled receptor 37 (endothelin receptor type B-like) 
+profilin 2 
+eukaryotic translation initiation factor 2, subunit 2 beta, 38kDa 
+dickkopf WNT signaling pathway inhibitor 1 
+ring finger protein 180 
+biogenesis of lysosomal organelles complex-1, subunit 5, muted 
+3-hydroxy-3-methylglutaryl-CoA reductase 
+homeobox C13 
+leucine rich repeat containing 4 
+mitochondrial ribosomal protein L49 
+methylenetetrahydrofolate dehydrogenase (NADP+ dependent) 2, methenyltetrahydrofolate cyclohydrolase 
+poly(A) polymerase gamma 
+CDC42 binding protein kinase alpha (DMPK-like) 
+desmocollin 3 
+A kinase (PRKA) anchor protein 2 
+follistatin 
+citrate synthase 
+inositol(myo)-1(or 4)-monophosphatase 2 
+v-crk avian sarcoma virus CT10 oncogene homolog 
+casein kinase 1, delta 
+reversion-inducing-cysteine-rich protein with kazal motifs 
+KIAA1211-like 
+ubiquitin specific peptidase 46 
+unkempt homolog (Drosophila) 
+dual specificity phosphatase 6 
+SMAD family member 7 
+calneuron 1 
+steroid sulfatase (microsomal), isozyme S 
+S-phase kinase-associated protein 1 
+RAS-like, estrogen-regulated, growth inhibitor 
+membrane bound O-acyltransferase domain containing 2 
+spindlin 1 
+FYN oncogene related to SRC, FGR, YES 
+RAS p21 protein activator (GTPase activating protein) 1 
+AT rich interactive domain 5B (MRF1-like) 
+potassium inwardly-rectifying channel, subfamily J, member 1 
+PALM2-AKAP2 readthrough 
+coiled-coil domain containing 85A 
+transmembrane protein 200B 
+ubiquitin-like modifier activating enzyme 2 
+PTC7 protein phosphatase homolog (S. cerevisiae) 
+transmembrane emp24 protein transport domain containing 7 
+alkB, alkylation repair homolog 1 (E. coli) 
+tripartite motif containing 6 
+early B-cell factor 1 
+tetraspanin 9 
+solute carrier family 12 (potassium/chloride transporter), member 5 
+WD repeat domain 47 
+zinc finger protein 496 
+protocadherin 10 
+netrin 1 
+synaptotagmin binding, cytoplasmic RNA interacting protein 
+zinc finger protein, FOG family member 2 
+family with sequence similarity 84, member A 
+TBC1 domain family, member 12 
+heparan sulfate (glucosamine) 3-O-sulfotransferase 4 
+ZFP36 ring finger protein-like 1 
+2-aminoethanethiol (cysteamine) dioxygenase 
+BTB (POZ) domain containing 2 
+brain-specific angiogenesis inhibitor 3 
+colorectal cancer associated 1 
+nuclear receptor coactivator 7 
+tropomyosin 3 
+testis derived transcript (3 LIM domains) 
+karyopherin alpha 4 (importin alpha 3) 
+heterogeneous nuclear ribonucleoprotein A3 
+v-ski avian sarcoma viral oncogene homolog 
+family with sequence similarity 160, member A1 
+nuclear receptor coactivator 3 
+pantothenate kinase 3 
+nuclear receptor coactivator 2 
+receptor accessory protein 1 
+potassium voltage-gated channel, Shal-related subfamily, member 3 
+adenosylhomocysteinase-like 1 
+androglobin 
+protocadherin 18 
+N(alpha)-acetyltransferase 30, NatC catalytic subunit 
+BTB (POZ) domain containing 3 
+potassium channel, subfamily K, member 1 
+T-box 15 
+cortactin binding protein 2 
+mitogen-activated protein kinase 6 
+N-acetylated alpha-linked acidic dipeptidase-like 2 
+potassium channel tetramerization domain containing 1 
+septin 7 
+neurogenin 2 
+Rho-associated, coiled-coil containing protein kinase 1 
+dachshund homolog 1 (Drosophila) 
+SLU7 splicing factor homolog (S. cerevisiae) 
+teashirt zinc finger homeobox 1 
+synaptotagmin XI 
+oxidative stress responsive 1 
+solute carrier family 6 (neurotransmitter transporter), member 5 
+ALX homeobox 4 
+Mdm4 p53 binding protein homolog (mouse) 
+neuron-derived neurotrophic factor 
+F-box protein 34 
+solute carrier family 30 (zinc transporter), member 4 
+teashirt zinc finger homeobox 2 
+TSC22 domain family, member 2 
+protein inhibitor of activated STAT, 4 
+MAM domain-containing glycosylphosphatidylinositol anchor protein 2  
+calmegin 
+homeodomain interacting protein kinase 1 
+active BCR-related 
+kelch-like family member 15 
+shisa family member 7 
+translocation associated membrane protein 2 
+roundabout, axon guidance receptor, homolog 2 (Drosophila) 
+MACRO domain containing 2 
+TNF receptor-associated factor 3 
+family with sequence similarity 81, member A 
+nuclear receptor interacting protein 1 
+UDP-N-acetyl-alpha-D-galactosamine:polypeptide N-acetylgalactosaminyltransferase 10 (GalNAc-T10) 
+prickle homolog 2 (Drosophila) 
+zinc finger protein 385B 
+transmembrane protein 260 
+RAB30, member RAS oncogene family 
+cyclin-dependent kinase 8 
+metal-regulatory transcription factor 1 
+zinc finger, MIZ-type containing 1 
+LIM homeobox 6 
+dipeptidyl-peptidase 10 (non-functional) 
+poly(A) polymerase alpha 
+heat shock 70kDa protein 8 
+cell adhesion molecule 2 
+DCN1, defective in cullin neddylation 1, domain containing 1 
+pecanex homolog (Drosophila) 
+KIAA1549-like 
+BTB and CNC homology 1, basic leucine zipper transcription factor 2 
+ADAM metallopeptidase with thrombospondin type 1 motif, 3 
+protocadherin alpha 5 
+protocadherin alpha 3 
+protocadherin alpha 11 
+protocadherin alpha 8 
+protocadherin alpha 2 
+protocadherin alpha 1 
+protocadherin alpha 10 
+protocadherin alpha 12 
+protocadherin alpha subfamily C, 1 
+protocadherin alpha 4 
+protocadherin alpha 7 
+protocadherin alpha 13 
+protocadherin alpha 9 
+protocadherin alpha 6 
+cytoplasmic polyadenylation element binding protein 2 
+TAR DNA binding protein 
+chimerin 2 
+regulator of G-protein signaling 17 
+gamma-aminobutyric acid (GABA) A receptor, beta 2 
+protocadherin alpha subfamily C, 2 
+glial cell derived neurotrophic factor 
+SLIT and NTRK-like family, member 3 
+proteasome (prosome, macropain) activator subunit 3 (PA28 gamma; Ki) 
+wingless-type MMTV integration site family, member 10B 
+3-phosphoinositide dependent protein kinase-1 
+phosphoinositide-3-kinase, regulatory subunit 3 (gamma) 
+RAR-related orphan receptor B 
+telomeric repeat binding factor 2 
+ubiquitin protein ligase E3 component n-recognin 5 
+potassium inwardly-rectifying channel, subfamily J, member 13 
+TBC1 domain family, member 15 
+one cut homeobox 2 
+zinc finger, SWIM-type containing 6 
+lysine (K)-specific methyltransferase 2E 
+neuroligin 1 
+fibroblast growth factor 14 
+dystonin 
+phosphodiesterase 8A 
+transient receptor potential cation channel, subfamily C, member 4 
+sterile alpha motif domain containing 8 
+tet methylcytosine dioxygenase 2 
+vinculin 
+adenylate cyclase activating polypeptide 1 (pituitary) 
+abhydrolase domain containing 13 
+endothelin receptor type B 
+GDP dissociation inhibitor 2 
+erbb2 interacting protein 
+RPGRIP1-like 
+ecotropic viral integration site 5 
+adducin 3 (gamma) 
+ankyrin 3, node of Ranvier (ankyrin G) 
+hyaluronan synthase 2 
+estrogen-related receptor gamma 
+PDLIM1 interacting kinase 1 like 
+sterile alpha motif domain containing 4A 
+sphingosine-1-phosphate receptor 1 
+mitogen-activated protein kinase kinase kinase 1, E3 ubiquitin protein ligase 
+SH3-domain kinase binding protein 1 
+low density lipoprotein receptor class A domain containing 4 
+SET domain containing (lysine methyltransferase) 7 
+DENN/MADD domain containing 5B 
+Kruppel-like factor 7 (ubiquitous) 
+nuclear factor I/X (CCAAT-binding transcription factor) 
+homeodomain interacting protein kinase 2 
+KIAA1024 
+cytoplasmic polyadenylation element binding protein 3 
+La ribonucleoprotein domain family, member 4B 
+nuclear receptor coactivator 1 
+adrenoceptor alpha 2A 
+serine/threonine/tyrosine interacting protein 
+lin-28 homolog A (C. elegans) 
+ubiquitin specific peptidase 6 (Tre-2 oncogene) 
+ring finger protein 19B 
+MRS2 magnesium transporter 
+diacylglycerol kinase, eta 
+agmatine ureohydrolase (agmatinase) 
+Meis homeobox 1 
+DDB1- and CUL4-associated factor 8  
+cerebellar degeneration-related protein 2-like 
+sodium channel, voltage gated, type VIII, alpha subunit 
+RNA binding protein with multiple splicing 2 
+zinc finger, DHHC-type containing 3 
+sel-1 suppressor of lin-12-like 3 (C. elegans) 
+PHD finger protein 12 
+enhancer of polycomb homolog 2 (Drosophila) 
+phospholipase D family, member 5 
+NODAL modulator 2 
+phosphodiesterase 4D, cAMP-specific 
+ectodermal-neural cortex 1 (with BTB domain) 
+purine-rich element binding protein B 
+transcription factor Dp-2 (E2F dimerization partner 2) 
+NODAL modulator 1 
+protein phosphatase 6, catalytic subunit 
+SH2B adaptor protein 3 
+HECT, C2 and WW domain containing E3 ubiquitin protein ligase 1 
+transient receptor potential cation channel, subfamily M, member 3 
+nuclear receptor subfamily 4, group A, member 2 
+fibroblast growth factor receptor substrate 2 
+mitogen-activated protein kinase kinase kinase kinase 4 
+chromosome 2 open reading frame 69 
+platelet-derived growth factor receptor, alpha polypeptide 
+cysteine-serine-rich nuclear protein 3 
+methionine sulfoxide reductase B3 
+nuclear transcription factor Y, beta 
+regulatory factor X, 3 (influences HLA class II expression) 
+AF4/FMR2 family, member 3 
+synapse defective 1, Rho GTPase, homolog 2 (C. elegans) 
+ELKS/RAB6-interacting/CAST family member 1 
+zinc finger protein 24 
+CREB binding protein 
+suppressor of cytokine signaling 5 
+Lipid phosphate phosphatase-related protein type 4  
+protein kinase, AMP-activated, alpha 1 catalytic subunit 
+family with sequence similarity 46, member C 
+EPH receptor A4 
+glutamate receptor, ionotropic, delta 2 
+SMG1 phosphatidylinositol 3-kinase-related kinase 
+CCR4-NOT transcription complex, subunit 2 
+BCL2-associated athanogene 2 
+CREB3 regulatory factor 
+zinc finger protein 207 
+calcium channel, voltage-dependent, L type, alpha 1D subunit 
+SNF related kinase 
+potassium voltage-gated channel, delayed-rectifier, subfamily S, member 2 
+QKI, KH domain containing, RNA binding 
+syntrophin, beta 2 (dystrophin-associated protein A1, 59kDa, basic component 2) 
+suppression of tumorigenicity 18 (breast carcinoma) (zinc finger protein) 
+family with sequence similarity 179, member B 
+B-cell CLL/lymphoma 11B (zinc finger protein) 
+nuclear fragile X mental retardation protein interacting protein 2 
+H6 family homeobox 3 
+RIMS binding protein 2 
+gamma-aminobutyric acid (GABA) A receptor, alpha 4 
+calcium/calmodulin-dependent protein kinase II gamma 
+phosphatidylinositol-5-phosphate 4-kinase, type II, gamma 
+ceramide kinase 
+glutamate receptor, ionotropic, N-methyl-D-aspartate 3A 
+nuclear factor I/A 
+family with sequence similarity 126, member B 
+mitogen-activated protein kinase kinase kinase 3 
+tau tubulin kinase 2 
+sodium channel, voltage-gated, type X, alpha subunit 
+receptor accessory protein 3 
+hyperpolarization activated cyclic nucleotide-gated potassium channel 1 
+ataxin 7-like 1 
+cyclin-dependent kinase 16 
+ST8 alpha-N-acetyl-neuraminide alpha-2,8-sialyltransferase 3 
+transcription factor 4 
+nucleosome assembly protein 1-like 4 
+C-terminal binding protein 2 
+MLX interacting protein 
+pleckstrin homology domain containing, family A (phosphoinositide binding specific) member 8 
+single-minded homolog 2 (Drosophila) 
+versican 
+DEAD (Asp-Glu-Ala-Asp) box polypeptide 46 
+desumoylating isopeptidase 1 
+caseinolytic mitochondrial matrix peptidase chaperone subunit 
+DAB2 interacting protein 
+trinucleotide repeat containing 6C 
+phosphodiesterase 3B, cGMP-inhibited 
+discs, large (Drosophila) homolog-associated protein 2 
+growth hormone receptor 
+K(lysine) acetyltransferase 6B 
+neuron navigator 3 
+Gse1 coiled-coil protein 
+insulin receptor substrate 2 
+solute carrier family 35, member E1 
+sterol regulatory element binding transcription factor 1 
+salt-inducible kinase 1 
+KIAA1432 
+additional sex combs like 2 (Drosophila) 
+sodium channel, voltage-gated, type I, alpha subunit 
+ubinuclein 2 
+one cut homeobox 3 
+leucine rich repeat and Ig domain containing 1 
+polypyrimidine tract binding protein 3 
+mitochondrial ribosomal protein S25 
+sarcoglycan, delta (35kDa dystrophin-associated glycoprotein) 
+metallothionein 1A 
+synaptotagmin XIV 
+ring finger protein, LIM domain interacting 
+decapping mRNA 1A 
+capping protein (actin filament) muscle Z-line, beta 
+protocadherin 7 
+ubiquitin specific peptidase 32 
+trichorhinophalangeal syndrome I 
+ring finger protein 165 
+CREB/ATF bZIP transcription factor 
+chromodomain protein, Y-like 2 
+ATPase, Na+/K+ transporting, beta 1 polypeptide 
+myopalladin 
+laminin, gamma 1 (formerly LAMB2) 
+solute carrier family 16 (monocarboxylate transporter), member 7 
+calmodulin-like 4 
+heterogeneous nuclear ribonucleoprotein A2/B1 
+prostaglandin F2 receptor inhibitor 
+solute carrier family 24 (sodium/potassium/calcium exchanger), member 4 
+calcium channel, voltage-dependent, R type, alpha 1E subunit 
+neuro-oncological ventral antigen 1 
+cyclin M1 
+runt-related transcription factor 1; translocated to, 1 (cyclin D-related) 
+coiled-coil domain containing 144A 
+protein kinase C and casein kinase substrate in neurons 1 
+GRB10 interacting GYF protein 1 
+cancer susceptibility candidate 3 
+potassium voltage-gated channel, Shaw-related subfamily, member 3 
+metadherin 
+cytoplasmic polyadenylation element binding protein 4 
+CTD (carboxy-terminal domain, RNA polymerase II, polypeptide A) small phosphatase like 2 
+paraneoplastic Ma antigen 2 
+kinesin family member 1B 
+contactin 4 
+adaptor-related protein complex 5, mu 1 subunit 
+transmembrane protein 65 
+zinc finger homeobox 4 
+nuclear protein, ataxia-telangiectasia locus 
+ATPase, aminophospholipid transporter (APLT), class I, type 8A, member 1 
+zinc finger, CCHC domain containing 14 
+DEAD (Asp-Glu-Ala-Asp) box helicase 3, X-linked 
+praja ring finger 2, E3 ubiquitin protein ligase 
+KIAA0907 
+A kinase (PRKA) anchor protein 12 
+forkhead box P1 
+X-box binding protein 1 
+chromosome 18 open reading frame 25 
+tensin 4 
+myeloid/lymphoid or mixed-lineage leukemia (trithorax homolog, Drosophila); translocated to, 3 
+tetratricopeptide repeat, ankyrin repeat and coiled-coil containing 2 
+podoplanin 
+semaphorin 7A, GPI membrane anchor (John Milton Hagen blood group) 
+striatin, calmodulin binding protein 
+chromodomain helicase DNA binding protein 1 
+SLIT-ROBO Rho GTPase activating protein 1 
+karyopherin alpha 3 (importin alpha 4) 
+adducin 1 (alpha) 
+bromodomain and WD repeat domain containing 3 
+zinc finger and BTB domain containing 46 
+suppressor of variegation 3-9 homolog 1 (Drosophila) 
+family with sequence similarity 120A 
+progestin and adipoQ receptor family member III 
+glycerophosphocholine phosphodiesterase GDE1 homolog (S. cerevisiae) 
+YTH domain family, member 3 
+regulatory factor X, 7 
+scinderin 
+regulating synaptic membrane exocytosis 2 
+alpha-kinase 3 
+lysine (K)-specific methyltransferase 2D 
+myelin transcription factor 1-like 
+AXL receptor tyrosine kinase 
+tubulin tyrosine ligase-like family, member 7 
+signal peptide peptidase like 3 
+CD302 molecule 
+cadherin 6, type 2, K-cadherin (fetal kidney) 
+pleckstrin homology domain containing, family A (phosphoinositide binding specific) member 3 
+ST3 beta-galactoside alpha-2,3-sialyltransferase 6 
+protein phosphatase 1, regulatory subunit 9A 
+potassium channel tetramerization domain containing 16 
+tubby like protein 4 
+phosphodiesterase 3A, cGMP-inhibited 
+unc-5 homolog D (C. elegans) 
+proteasome (prosome, macropain) assembly chaperone 1 
+fibroblast growth factor 12 
+WD repeat and FYVE domain containing 3 
+PDZ domain containing 8 
+pleckstrin homology domain containing, family M, member 3 
+translocase of inner mitochondrial membrane 9 homolog (yeast) 
+syndecan 3 
+tubulin folding cofactor E-like 
+SEC14 and spectrin domains 1 
+zinc finger protein 324 
+SH3 and multiple ankyrin repeat domains 2 
+strawberry notch homolog 1 (Drosophila) 
+syntaxin binding protein 5 (tomosyn) 
+transcription factor CP2-like 1 
+NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 9, 22kDa 
+EH-domain containing 4 
+Rho family GTPase 2 
+DnaJ (Hsp40) homolog, subfamily C, member 15 
+staufen double-stranded RNA binding protein 2 
+LY75-CD302 readthrough 
+gastrulation brain homeobox 2 
+cytochrome b5 reductase 4 
+abl-interactor 2 
+hormonally up-regulated Neu-associated kinase 
+RAB41, member RAS oncogene family 
+leucine rich repeat containing 4C 
+ATP-binding cassette, sub-family B (MDR/TAP), member 11 
+NCK-associated protein 1 
+fat mass and obesity associated 
+protein O-fucosyltransferase 2 
+periplakin 
+mortality factor 4 like 1 
+IQ motif and Sec7 domain 2 
+potassium channel, subfamily K, member 15 
