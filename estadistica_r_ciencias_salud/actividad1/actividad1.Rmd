@@ -1,0 +1,266 @@
+---
+title: "actividad1"
+author: "Isabel"
+date: "2025-11-25"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Actividad 1 - Isabel María Rodríguez Alés
+
+En esta práctica se ha analizado la expresión de varios genes asociados al cáncer de mama para poder comparar su nivel frente a distintos tratamientos. Para realizar esto, hemos procesado los datos, generado gráficos individuales de distribución y los hemos combinado en una única figura. El objetivo de esto es el de identificar posibles patrones de expresión que pueden tener relevancia biológica.
+
+En primer lugar, en caso de no estar instaladas las dependencias, se instalan. Tras eso, importamos las librerías necesarias.
+
+```{r}
+#Lista de dependencias
+libs <- c("ggplot2", "patchwork", "pheatmap", "dplyr", "tidyr")
+
+#Instalar las librerías que no estén instaladas
+for (lib in libs) {
+  if (!require(lib, character.only = TRUE)) {
+    install.packages(lib, dependencies = TRUE)
+  }
+}
+
+if (!requireNamespace("ComplexHeatmap", quietly = TRUE)) {
+  if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+  BiocManager::install("ComplexHeatmap")
+}
+
+#Librerías necesarias
+library(ggplot2)
+library(patchwork)
+library(pheatmap)
+library(ComplexHeatmap)
+library(dplyr)
+library(tidyr)
+```
+
+Tras haberlas instalado e importado correctamente, ponemos la semilla para fijar la aletoriedad de los procesos de generación y representación gráfica. Así es como podemos garantizar que los resultados obtenidos sean reproducibles cada vez que ejecutemos el análisis.
+
+También procedemos a realizar la carga de los datos:
+
+```{r}
+#Semilla para reproducibilidad
+set.seed(1995)
+
+#Cargar dataset
+datos <- read.csv("MUBioinfo_dataset_genes_oct2025.csv")
+```
+
+## 1. Primera Parte
+
+Corresponde con el primer ejercicio de la actividad, donde hay que interpretar la distribución de la expresión de los genes cuando los comparamos por tipo de tratamiento.
+
+Para realizar este apartado, en primer lugar cargamos el listado de genes que indica la práctica en la variable genes. Tras eso, vamos generando las gráficas de caja individuales para cada gen, tal y como se muestra en el siguiente bloque de código:
+
+```{r}
+################################################################################
+#Primera parte
+#lista de genes
+genes <- c("AQ_esr1", "AQ_her2", "AQ_brca1", "AQ_brca2", "AQ_mki67",
+           "AQ_gata3", "AQ_foxa1", "AQ_ccnd1", "AQ_cdh1", "AQ_tp53")
+
+#Me he creado una lista para almacenar los plots
+plots <- list()
+
+for (g in genes){
+  p <- ggplot(datos, aes(x = tratamiento, y = .data[[g]], fill = tratamiento)) +
+    geom_boxplot() +
+    labs(title = paste("Expresión de", g),
+         subtitle = "Comparación por tipo de tratamiento",
+         x = "Tratamiento",
+         y = "expresión génica") +
+    theme_minimal() +
+    scale_fill_brewer(palette = "Set2")
+  plots[[g]] <- p
+}
+```
+
+A continuación, se muestran los plots individuales generados para cada gen:
+
+```{r}
+plots[["AQ_esr1"]]
+plots[["AQ_her2"]]
+plots[["AQ_brca1"]]
+plots[["AQ_brca2"]]
+plots[["AQ_mki67"]]
+plots[["AQ_gata3"]]
+plots[["AQ_foxa1"]]
+plots[["AQ_ccnd1"]]
+plots[["AQ_cdh1"]]
+plots[["AQ_tp53"]]
+```
+
+Tras generar los plots individuales y almacenarlos en la lista plots, los combinamos para poder visualizar de forma conjunta la expresión de todos los genes. De esta forma se facilita la comparación entre tratamientos e identificación de patrones generales. Para visualizar el gráfico conjunto se recomienda abrirlo en una ventana separada y esperar unos segundos hasta que la imagen se muestre correctamente.
+
+```{r}
+#Combinar todos los plots en un solo gráfico
+combined_plot <- wrap_plots(plots, ncol = 3) +
+  plot_annotation(
+    theme = theme(plot.title = element_text(size = 16, face = "bold"),
+                  plot.subtitle = element_text(size = 12))
+  )
+combined_plot
+
+
+```
+
+### Interpretación de la distribución
+
+La interpretación de los boxplots combinados nos está indicando que la expresión génica de los 10 genes analizados es prácticamente nula en los pacientes tratados con el fármaco. Sin embargo, en el grupo de pacientes tratados con placebo la mayoría de genes alcanzan valores cercanos a 0.9. Esto evidencia una diferencia clara entre los tratamientos, aunque las expresiones en el grupo placebo siguen siendo relativamente bajas en términos absolutos. 
+
+En conjunto, estos resultados sugieren que el fármaco aplicado reduce notablemente la actividad de estos genes en la cohorte estudiada, mientras que en ausencia de tratamiento la expresión permanece detectable pero moderada.
+
+## 2. Segunda Parte
+
+Corresponde con el segundo ejercicio de la actividad, donde hay que interpretar la distribución de lso datos de las variables bioquímicas de la población.
+
+Para realizar este apartado, en primer lugar cargamos el listado de variables bioquímicas que indica la práctica en la variable bioquímicas. Tras eso, vamos generando las gráficas de caja individuales, tal y como se muestra en el siguiente bloque de código:
+
+```{r}
+################################################################################
+#Segunda parte
+bioquimicas <- c("glucosa","leucocitos","linfocitos","neutrofilos",
+                 "chol","hdl","hierro","iga","ige","igg","ign",
+                 "ldl","pcr","transferrina","trigliceridos","cpk")
+
+plots_bio <- list()
+
+for (v in bioquimicas){
+  p <- ggplot(datos, aes(x = .data[[v]])) +
+    geom_histogram(aes(y = ..density..), bins = 30, fill = "skyblue", color = "black") +
+    geom_density(color = "red", size = 1) +
+    labs(title = paste("Distribución de", v),
+         x = v,
+         y = "Densidad") +
+    theme_minimal()
+  plots_bio[[v]] <- p
+}
+```
+
+A continuación, se muestran los plots individuales generados para cada gen:
+
+```{r}
+plots_bio[["glucosa"]]
+plots_bio[["leucocitos"]]
+plots_bio[["linfocitos"]]
+plots_bio[["neutrofilos"]]
+plots_bio[["chol"]]
+plots_bio[["hdl"]]
+plots_bio[["hierro"]]
+plots_bio[["iga"]]
+plots_bio[["ige"]]
+plots_bio[["igg"]]
+plots_bio[["ign"]]
+plots_bio[["ldl"]]
+plots_bio[["pcr"]]
+plots_bio[["transferrina"]]
+plots_bio[["trigliceridos"]]
+plots_bio[["cpk"]]
+```
+
+Tras generar los plots individuales y almacenarlos en la lista plots, los combinamos para poder visualizarlo todo de forma conjunta. Para visualizar el gráfico conjunto se recomienda abrirlo en una ventana separada y esperar unos segundos hasta que la imagen se muestre correctamente (en el html generado no se ve demasiado bien).
+
+```{r}
+#Combinar gráficos
+combined_bio <- wrap_plots(plots_bio, ncol = 3)
+combined_bio
+```
+
+###  ¿Qué interpretación sacas de los datos de las variables bioquímicas en toda la población?
+
+La interpretación de los histogramas de las variables bioquímicas indica que en toda la población la mayoría de los parámetros se distribuye dentro de rangos esperados para adultos.
+
+Algunas variables presentan una distribución relativamente normal, mientras que otras, como la distribución de los triglicéridos, el ign o el cpk que muestran sesgos hacia la izquierda.
+
+Se observan además ciertos valores extremos que podrían representar outliers o pacientes con condiciones particulares. En general, los datos reflejan variabilidad natural entre individuos y permiten identificar tendencias globales de cada parámetro bioquímico en la cohorte estudiada.
+
+### ¿Crees que sigue una distribucion normal o simétrica en la que se visualiza una distribución parecida a una campana de Gauss?
+
+Para cada variable voy a indicar su distribución:
+
+-   Glucosa: distribución asimétrica sesgada a la izquierda.
+
+-   Leucocitos: distribución ligeramente sesgada a la izquierda.
+
+-   Linfocitos: distribución bastante normal.
+
+-   Neutrofilos: distribución asimétrica sesgada a la izquierda.
+
+-   Chol: distribución normal pero bastante aplanada. Es platicúrtica.
+
+-   hdl: distribución asimétrica sesgada a la izquierda.
+
+-   Hierro: distribución normal.
+
+-   iga: distribución prácticamente normal.
+
+-   ige: distribución asimétrica sesgada a la izquierda.
+
+-   igg: distribución normal.
+
+-   ign: distribución asimétrica ligeramente sesgada a la izquierda.
+
+-   ldl: distribución asimétrica ligeramente sesgada a la izquierda.
+
+-   pcr: distribución geométrica.
+
+-   Transferrina: distribución normal.
+
+-   Trigliceridos: distribución asimétrica sesgada a la izquierda.
+
+-   cpk: distribución asimétrica sesgada a la izquierda.
+
+## 3. Tercera Parte
+
+Esta última parte se corresponde con el tercer ejercicio de la actividad. Hay que mapear todos los valores de expresión de genes para poder visualizar posibles patrones entre los datos de los pacientes.
+
+Para realizar el tercer ejercicio de la actividad, seleccionamos las columnas de expresión génica que comienzan con "AQ\_" y las metemos en un dataframe, datos_genes.
+
+Tras eso, escalamos los datos con la función scale(), permitiendo así comparaciones equitativas entre ellos. Después se genera un mapa de calor con pheatmap en el que se agrupan jerárquicamente tanto los pacientes como los genes para visualizar patrones de expresión similares.
+
+Finalmente, ajustamos los nombres y el esquema de colores de forma que mostramos la intensidad de expresión de cada gen en un gradiente que va de azul, representando intensidad baja, a rojo, representando intensidad alta.
+
+```{r}
+################################################################################
+#Tercera parte
+genes_AQ <- grep("^AQ_", names(datos), value = TRUE)
+datos_genes <- datos[, genes_AQ]
+
+#Escalado
+datos_scaled <- scale(datos_genes)
+
+#Heatmap con pheatmap
+pheatmap(datos_scaled,
+         cluster_rows = TRUE,
+         cluster_cols = TRUE,
+         show_rownames = FALSE,
+         show_colnames = TRUE,
+         main = "Heatmap de expresión génica",
+         color = colorRampPalette(c("navy", "white", "red"))(50))
+
+```
+
+### ¿Hay algún tipo de patrón de pacientes que tiene la expresión de genes similar o diferenciada?
+
+Como podemos observar en el mapa de calor, existen grupos de pacientes bien diferenciados que presentan patrones similares de expresión. Esto indica que ciertas muestras comparten perfiles génicos similares.
+
+Asimismo, se pueden observar diferencias claras entre algunos grupos. Esto sugiere una heterogeneidad en la actividad de los genes analizados dentro de la cohorte.
+
+Estos patrones permiten identificar subgrupos de pacientes que podrían responder de forma distinta a los tratamientos, o presentar características particulares en la enfermedad.
+
+En conjunto, la mapa de calor evidencia tanto las similitudes como la variabilidad en la expresión génica entre los individuos estudiados.
+
+### ¿Hay grupos de genes con patrones de expresión similares o diferenciadas?
+
+El mapa de calor también refleja que existen grupos de genes con patrones de expresión similares. Esto indica que ciertos genes tienen tendencia a comportarse de manera coordinada en los pacientes.
+
+Estos patrones sugieren que algunos de los genes analizados podrían estar regulados de forma conjunta o participar en las mismas vías.
+
+En cualquier caso, los grupos aparecen claramente reflejados en el heatmap.
