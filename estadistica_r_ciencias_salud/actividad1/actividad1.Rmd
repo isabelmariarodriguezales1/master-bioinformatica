@@ -173,7 +173,7 @@ combined_bio <- wrap_plots(plots_bio, ncol = 3)
 combined_bio
 ```
 
-###  ¿Qué interpretación sacas de los datos de las variables bioquímicas en toda la población?
+### ¿Qué interpretación sacas de los datos de las variables bioquímicas en toda la población?
 
 La interpretación de los histogramas de las variables bioquímicas indica que en toda la población la mayoría de los parámetros se distribuye dentro de rangos esperados para adultos.
 
